@@ -11,5 +11,8 @@ public class Test {
         System.out.println(dog.getName());
         System.out.println(dog.getAge());
 
+        dog.eat();
+        dog.sayHello();
+
     }
 }
