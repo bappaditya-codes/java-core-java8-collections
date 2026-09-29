@@ -1,6 +1,4 @@
-package com.ok.javaZeroToHero.inheritance;
-
-import javax.swing.plaf.basic.BasicDesktopIconUI;
+package com.ok.javaZeroToHero.inheritance.animals;
 
 public class Test {
     public static void main(String[] args) {
