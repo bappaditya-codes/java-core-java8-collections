@@ -3,7 +3,7 @@ package com.ok.javaZeroToHero.encapsulation;
 public class Account {
     private long accountNumber;
     private double balance;
-    private double withdraw;
+    //private double withdraw;
 
     public void deposit(double amount){
         if(amount > 0){
@@ -35,9 +35,9 @@ public class Account {
     public double getBalance() {
         return balance;
     }
-    public double getWithdraw() {
-        return withdraw;
+//    public double getWithdraw() {
+//        return withdraw;
     }
 
 
-}
+//}
