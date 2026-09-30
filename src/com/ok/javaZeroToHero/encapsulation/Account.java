@@ -3,6 +3,7 @@ package com.ok.javaZeroToHero.encapsulation;
 public class Account {
     private long accountNumber;
     private double balance;
+    private double withdraw;
 
     public void deposit(double amount){
         if(amount > 0){
@@ -13,6 +14,7 @@ public class Account {
             System.out.println("Invalid deposit amount");
         }
     }
+
     public void withdraw(double amount){
         if(amount > 0 && amount <= balance){
             balance -=amount;
@@ -23,10 +25,10 @@ public class Account {
         }
     }
 
+
     public long getAccountNumber() {
         return accountNumber;
     }
-
     public void setAccountNumber(long accountNumber) {
         this.accountNumber = accountNumber;
     }
