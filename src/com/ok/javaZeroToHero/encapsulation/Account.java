@@ -35,6 +35,9 @@ public class Account {
     public double getBalance() {
         return balance;
     }
+    public double getWithdraw() {
+        return withdraw;
+    }
 
 
 }
