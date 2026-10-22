@@ -10,6 +10,8 @@ public class Test {
         account.withdraw(1000);
         account.deposit(1000);
         account.withdraw(105);
+        account.withdraw(1000);
+        account.deposit(100);
         System.out.println(account.getBalance());
         System.out.println(account.getAccountNumber());
 
