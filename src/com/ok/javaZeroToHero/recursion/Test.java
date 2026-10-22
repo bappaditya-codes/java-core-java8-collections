@@ -2,7 +2,7 @@ package com.ok.javaZeroToHero.recursion;
 
 public class Test {
     public static void main(String[] args) {
-       // System.out.println(factorial(5));
+        System.out.println(factorial(5));
 
         //5 + 4 + 3 + 2 + 1
 
