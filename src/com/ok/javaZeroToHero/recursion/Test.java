@@ -9,13 +9,13 @@ public class Test {
         System.out.println(sumOfNaturalNumbers(6));
 
     }
-   // public static int factorial(int x){
-//        if(x==1){
-//            return 1;
-//        }
-//        return x *factorial(x-1);
+    public static int factorial(int x){
+        if(x==1){
+            return 1;
+        }
+        return x *factorial(x-1);
 
-  //  }
+    }
 
     public static int sumOfNaturalNumbers(int n) {
         if (n == 1) {
