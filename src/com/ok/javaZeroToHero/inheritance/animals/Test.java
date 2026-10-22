@@ -5,10 +5,8 @@ public class Test {
         Dog dog = new Dog();
         dog.setName("Rockey");
         dog.setAge(5);
-
         System.out.println(dog.getName());
         System.out.println(dog.getAge());
-
         dog.eat();
         dog.sayHello();
 
