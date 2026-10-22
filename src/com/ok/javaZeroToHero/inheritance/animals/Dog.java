@@ -2,9 +2,9 @@ package com.ok.javaZeroToHero.inheritance.animals;
 
 public class Dog extends Animal{
 
-    //method overriding
+    //method overriding example
    public void sayHello(){
-       System.out.println("gheu gheu...");
+       System.out.println("gheu gheu");
     }
 
 }
