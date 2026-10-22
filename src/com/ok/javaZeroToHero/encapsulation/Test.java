@@ -1,6 +1,6 @@
 package com.ok.javaZeroToHero.encapsulation;
 
-public class Test {
+public class aTest {
     public static void main(String[] args) {
 
         Account account = new Account();
