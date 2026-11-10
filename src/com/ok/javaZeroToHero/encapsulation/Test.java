@@ -14,5 +14,6 @@ public class Test {
         account.deposit(100);
         System.out.println(account.getBalance());
         System.out.println(account.getAccountNumber());
+        //System.out.println(account.hashCode());
     }
 }
