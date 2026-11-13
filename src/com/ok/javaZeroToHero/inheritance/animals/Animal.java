@@ -2,7 +2,7 @@ package com.ok.javaZeroToHero.inheritance.animals;
 
 public class Animal {
     private String name;
-    private int age;
+    private String age;
 
     public String getName() {
         return name;
@@ -12,19 +12,17 @@ public class Animal {
         this.name = name;
     }
 
-    public int getAge() {
+    public String getAge() {
         return age;
     }
 
-    public void setAge(int age) {
+    public void setAge(String age) {
         this.age = age;
     }
-
     public void eat(){
-        System.out.println("This animal ate food...");
+        System.out.println("This animal eats food...");
     }
-
     public void sayHello(){
-        System.out.println("");
+        System.out.println("gheu gheu...");
     }
 }
